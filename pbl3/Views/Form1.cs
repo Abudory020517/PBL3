@@ -50,7 +50,7 @@ namespace pbl3
         //    }
 
         private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
-        {
+        { // bạn có muốn thoáy
             DialogResult dr= MessageBox.Show("BAN CO MUON THOAT","Xac nhan",MessageBoxButtons.OKCancel,MessageBoxIcon.Question);
             if(dr == DialogResult.OK) {
                 this.Close();
