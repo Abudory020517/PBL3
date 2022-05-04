@@ -399,6 +399,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "uctNhanvien";
             this.Size = new System.Drawing.Size(1936, 646);
+            this.Load += new System.EventHandler(this.uctNhanvien_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();

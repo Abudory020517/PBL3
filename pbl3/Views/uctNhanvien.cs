@@ -17,5 +17,10 @@ namespace pbl3.Views
             InitializeComponent();
         }
 
+        public static uctNhanvien uctNV = new uctNhanvien();
+        private void uctNhanvien_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
