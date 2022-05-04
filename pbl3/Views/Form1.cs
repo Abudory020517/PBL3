@@ -16,7 +16,7 @@ namespace pbl3
         {
             InitializeComponent();
         }
-        internal static List<byte> typePages = new List<byte>();
+        public static List<byte> typePages = new List<byte>();
         public void ThemTabPages(UserControl uct, byte typeControl, string tenTab)
         {// kt tồn tại trang này chưa
             for (int i = 0; i < TabHienThi.TabPages.Count; i++)
@@ -39,7 +39,6 @@ namespace pbl3
             uct.Focus();
 
         }
-        //Đóng tab hiện tại
         public void DongTabHienTai()
         {
             TabHienThi.TabPages.Remove(TabHienThi.SelectedTab);
@@ -53,7 +52,7 @@ namespace pbl3
         }
 
         private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
-        { // bạn có muốn thoát
+        { 
             DialogResult dr= MessageBox.Show("Bạn có muốn thoát? ","Xac nhan",MessageBoxButtons.OKCancel,MessageBoxIcon.Question);
             if(dr == DialogResult.OK) {
                 this.Close();

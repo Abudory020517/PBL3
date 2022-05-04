@@ -20,7 +20,7 @@ namespace pbl3.Views
         public static uctNhanvien uctNV = new uctNhanvien();
         private void uctNhanvien_Load(object sender, EventArgs e)
         {
-
+            ///sdfgw
         }
     }
 }
